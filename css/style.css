@@ -12,3 +12,13 @@ html {
   transform: translateY(-6px);
   box-shadow: 0 15px 35px rgba(99, 102, 241, 0.2);
 }
+
+/* Button hover polish */
+.btn-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.25);
+}
